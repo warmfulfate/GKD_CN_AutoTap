@@ -4,12 +4,12 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
-  name: 'Subscription',
-  version: 0,
-  author: 'author',
+  id: 1802,
+  name: 'GKD_CN_AutoTap',
+  version: 1,
+  author: 'warmfulfate',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  supportUri: 'https://github.com/warmfulfate/GKD_CN_AutoTap/issues',
   categories,
   globalGroups,
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
