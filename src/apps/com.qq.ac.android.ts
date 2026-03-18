@@ -8,8 +8,7 @@ export default defineGkdApp({
       key: 0,
       name: '自动功能-领取阅点和月票碎片',
       desc: '测试版本12.15.8，在底部导航栏“v会员”界面领取',
-      exampleUrls: '', //如果有，可以填入。
-      activityIds: [''],
+      exampleUrls: 'https://e.gkd.li/e0b51608-f761-47d2-b40d-f20266a502e1', //如果有，可以填入。
       rules: [
         {
           fastQuery: true,
