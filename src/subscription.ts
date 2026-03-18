@@ -6,7 +6,7 @@ import globalGroups from './globalGroups';
 export default defineGkdSubscription({
   id: 1802,
   name: 'GKD_CN_AutoTap',
-  version: 1,
+  version: 2,
   author: 'warmfulfate',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://github.com/warmfulfate/GKD_CN_AutoTap/issues',

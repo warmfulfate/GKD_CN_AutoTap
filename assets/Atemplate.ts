@@ -9,8 +9,11 @@ export default defineGkdApp({
       name: '',
       desc: '',
       exampleUrls: '', //如果有，可以填入。
-      activityIds: [''],
-      rules: [{}],
+      rules: [
+        {
+          activityIds: [''],
+        },
+      ],
     },
   ],
 });

@@ -12,9 +12,11 @@ export default defineGkdApp({
       activityIds: [''],
       rules: [
         {
-          matches: ['[clickable=true&&text="每日领取"]'],
-          snapshotUrls: ['https://i.gkd.li/i/25825149'],
+          fastQuery: true,
           activityIds: ['com.qq.ac.android.main.MainActivity'],
+          matches:
+            'RecyclerView[visibleToUser=true && vid="recycle_view"] >3 TextView[text="每日领取"]',
+          snapshotUrls: ['https://i.gkd.li/i/25825149'],
         },
       ],
     },
