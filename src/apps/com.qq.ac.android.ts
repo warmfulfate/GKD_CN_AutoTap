@@ -38,6 +38,8 @@ export default defineGkdApp({
       key: 2,
       name: '局部广告-信息流广告',
       desc: '测试版本：未知',
+      exampleUrls:
+        'https://m.gkd.li/57941037/1be7564d-f6c2-429d-9cb0-3d923adafc8a', //如果有，可以填入
       rules: [
         {
           key: 0,
@@ -45,9 +47,19 @@ export default defineGkdApp({
           fastQuery: true,
           activityIds: 'com.qq.ac.android.reader.comic.ComicReaderActivity',
           matches: '[vid="iv_del"]',
-          exampleUrls:
-            'https://m.gkd.li/57941037/1be7564d-f6c2-429d-9cb0-3d923adafc8a', //如果有，可以填入
           snapshotUrls: 'https://i.gkd.li/i/14730335',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: '局部广告-个人信息页面',
+      desc: '测试版本:12.15.8“我的”页面-“游戏中心”和“福利中心”下的广告',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: 'com.qq.ac.android.main.MainActivity',
+          matches: 'ImageView[vid="iv_del"]',
         },
       ],
     },
